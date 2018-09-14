@@ -8,6 +8,7 @@
     "deploy": "gh-pages -d dist",
     "start": "parcel dist/index.html"
   },
+  "homepage": "https://krismrp.github.io/purecloud-cobrowse-demo",
   "keywords": [],
   "author": "",
   "license": "ISC",
