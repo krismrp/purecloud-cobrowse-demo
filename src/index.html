@@ -1,12 +1,12 @@
+<!DOCTYPE html>
 <html>
 
-<head>
-</head>
-
 <body>
-  <button onclick="showCobrowse();">Start Cobrowse</button>
+  <button onclick="showCobrowse();">Start Co-Browse</button>
+
   <script src="https://cobrowse.mypurecloud.ie/cobrowse-jsapi-v1.js?deploymentKey=HjE9EKOkmNkQ80TBtbiDiAo0y6vhnDEV&locale=en"></script>
   <script type="text/javascript">
+
     function showCobrowse() {
       window.PureCloud.cobrowse.startSharing({
         participant: {
@@ -21,7 +21,9 @@
         console.log('Co-browse initiated. Page is being shared.');
         console.log('Viewer URL: ' + sharerSession.getViewerUrl());
       });
-    }</script>
+    }
+
+  </script>
 </body>
 
 </html>
